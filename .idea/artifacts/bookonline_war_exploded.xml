@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bookonline:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/bookonline_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bookonline" />
+          <element id="library" level="project" name="maven_reposity" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="jstl.jar" module-name="bookonline" />
+          <element id="library" level="module" name="msbase.jar" module-name="bookonline" />
+          <element id="library" level="module" name="mssqlserver.jar" module-name="bookonline" />
+          <element id="library" level="module" name="msutil.jar" module-name="bookonline" />
+          <element id="library" level="module" name="standard.jar" module-name="bookonline" />
+          <element id="library" level="project" name="Spring-4.1.6.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.1.6.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="bookonline/web/Web" />
+    </root>
+  </artifact>
+</component>
